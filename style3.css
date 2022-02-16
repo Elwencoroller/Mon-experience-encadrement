@@ -1,0 +1,146 @@
+body
+    {font-family: Arial, Helvetica, sans-serif;
+background: url(fond.jpg) fixed center/cover;
+height: 100vh;
+}
+
+#bloc_page
+{width: 1300px;
+margin:auto}
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    nav ul
+    {
+        flex-direction: column;
+    }
+    nav li
+    {
+        padding-left: 4px;
+    }
+    nav a
+    {
+        font-size: 1em;
+    }
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    section
+    {
+        flex-direction: column;
+    }
+    article
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    .imageflottante{
+        width: 200px;
+        float: right;
+        margin-left: 15px;
+    }
+    .imageflottante2{
+        width: 100px;
+        float: right;
+        margin-left: 15px;
+    }
+}
+
+header h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color:darkblue;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+h2{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+figcaption{
+    text-align: center;
+}
+
+#avec_les_petits {
+    text-align: center;
+    margin: auto;
+}
+
+#avec_les_grands{
+    text-align: center;
+    margin: auto;
+}
+
+/* Navigation */
+    
+nav ul{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    border: 3px solid blue;
+    box-shadow: 6px 6px 0px blueviolet;
+    background-color: aliceblue;
+    padding: 5px 5px 5px 5px;
+}
+
+nav li{
+    margin-left: 20px;
+}
+
+nav a{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: :3px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:darkblue;
+    border-bottom: 3px solid red;
+}
+
+article
+{
+    flex: 5;
+    border: 30px dashed rgb(0, 64, 128);
+    background-color: yellow;
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.imageflottante
+{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.imageflottante2
+{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#photos
+{
+    display:flex;
+}
